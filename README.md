@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Temu Dataku Landing Page Testing
 
-## Getting Started
+Ini adalah proyek [Next.js](https://nextjs.org) yang dibuat menggunakan [`create-next-app`](<https://www.google.com/search?q=%5Bhttps://nextjs.org/docs/app/api-reference/cli/create-next-app%5D(https://nextjs.org/docs/app/api-reference/cli/create-next-app)>).
 
-First, run the development server:
+## Menjalankan Proyek Secara Lokal
+
+Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal Anda.
+
+### 1\. Clone Repositori
+
+Pertama, clone repositori ini ke mesin lokal Anda menggunakan Git:
+
+```bash
+git clone https://github.com/rhyssh/temuDataku.git
+```
+
+### 2\. Masuk ke Direktori Proyek
+
+Setelah proses clone selesai, navigasikan ke dalam direktori proyek:
+
+```bash
+cd temuDataku
+```
+
+### 3\. Instal Dependensi
+
+Selanjutnya, instal semua dependensi yang dibutuhkan oleh proyek. Anda bisa menggunakan npm, yarn, pnpm, atau bun.
+
+```bash
+npm install
+# atau
+yarn install
+# atau
+pnpm install
+# atau
+bun install
+```
+
+### 4\. Jalankan Server Pengembangan
+
+Setelah semua dependensi terinstal, jalankan server pengembangan:
 
 ```bash
 npm run dev
-# or
+# atau
 yarn dev
-# or
+# atau
 pnpm dev
-# or
+# atau
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](https://www.google.com/search?q=http://localhost:3000) di browser Anda untuk melihat hasilnya.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Anda dapat mulai mengedit halaman utama dengan memodifikasi file `app/page.tsx`. Halaman akan diperbarui secara otomatis saat Anda menyimpan perubahan.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Teknologi yang Digunakan
 
-To learn more about Next.js, take a look at the following resources:
+Proyek ini menggunakan [`next/font`](<https://www.google.com/search?q=%5Bhttps://nextjs.org/docs/app/building-your-application/optimizing/fonts%5D(https://nextjs.org/docs/app/building-your-application/optimizing/fonts)>) untuk mengoptimalkan dan memuat [Geist](https://vercel.com/font), sebuah keluarga font baru dari Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Pelajari Lebih Lanjut
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Untuk mempelajari lebih lanjut tentang Next.js, lihat sumber daya berikut:
 
-## Deploy on Vercel
+- [Dokumentasi Next.js](https://nextjs.org/docs) - pelajari tentang fitur dan API Next.js.
+- [Belajar Next.js](https://nextjs.org/learn) - tutorial interaktif Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Anda dapat melihat [repositori Next.js di GitHub](https://github.com/vercel/next.js) - masukan dan kontribusi Anda sangat kami hargai\!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deploy di Vercel
+
+Cara termudah untuk mendeploy aplikasi Next.js Anda adalah dengan menggunakan [Platform Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dari para pembuat Next.js.
+
+Lihat [dokumentasi deployment Next.js](https://nextjs.org/docs/app/building-your-application/deploying) kami untuk detail lebih lanjut.
