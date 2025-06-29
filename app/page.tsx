@@ -13,7 +13,7 @@ export default function HomePage() {
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
               {/* <ShoppingBag className="h-8 w-8 text-green-600" /> */}
-              <Image src="/temudataku.png" alt="Logo" width={40} height={40} />
+              <Image src="/temuDataku.png" alt="Logo" width={40} height={40} />
               <span className="ml-2 text-2xl font-bold text-gray-900">TemuDataku</span>
             </div>
             <Link href="/login">
